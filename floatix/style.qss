@@ -1,0 +1,56 @@
+#panel {
+  background-color: rgba(28, 30, 36, 235);
+  border: 1px solid rgba(255, 255, 255, 20);
+  border-radius: 15px;
+}
+
+#compactView {
+  background: transparent;
+}
+
+#logoLabel {
+  background-color: rgba(58, 108, 244, 220);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 36);
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+QPushButton {
+  background-color: #3a6cf4;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-weight: 600;
+}
+
+QPushButton:hover {
+  background-color: #4c7bfa;
+}
+
+QPushButton:pressed {
+  background-color: #2f5ad2;
+}
+
+#closeButton {
+  background-color: #df4759;
+}
+
+#closeButton:hover {
+  background-color: #eb5a6b;
+}
+
+#closeButton:pressed {
+  background-color: #c73f50;
+}
+
+QPlainTextEdit {
+  background-color: rgba(15, 16, 21, 220);
+  color: #e8ecff;
+  border: 1px solid rgba(255, 255, 255, 18);
+  border-radius: 12px;
+  padding: 10px;
+  selection-background-color: #4c7bfa;
+}
