@@ -28,3 +28,7 @@ El ícono del modo compacto se carga desde una ruta local del autor; si no se en
 ## ⚠️ Limitación conocida
 
 Las notas no se guardan automáticamente ni se recuerdan al reabrir la app — cada vez que le das a "Save" tienes que elegir manualmente dónde guardarla.
+
+## Nota de plataforma
+
+El ícono del modo compacto se carga desde una ruta absoluta local del autor (no relativa al proyecto). Se incluye el archivo en `iconos/waos.png` como referencia, pero el programa no lo detectará automáticamente en otra máquina — caerá a mostrar la letra "N" en su lugar. No rompe la ejecución, solo cambia el ícono visualmente.
